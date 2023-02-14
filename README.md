@@ -4,7 +4,7 @@ En esta tarea, vamos a hacer un contenedor de docker con Python. Para empezar, v
 ```docker run -it --rm --name my-running-script -v "$PWD":/usr/src/myapp -w /usr/src/myapp python:3 python your-daemon-or-script.py```
 ## Explicación del código
 
-``` docker``` Es el comando básico para ejecutar Docker.
+``` docker``` Es el comando básico para ejecutar Docker.  
 
 ``` run ``` Es el comando para ejecutar el contenido.
 
